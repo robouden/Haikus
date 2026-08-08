@@ -1,0 +1,3 @@
+.haiku,.renku{writing-mode:vertical-rl;text-orientation:mixed;font-family:"Noto Serif JP",serif;font-size:20pt;line-height:1.6;letter-spacing:.15em}
+ruby rt{font-size:.45em}
+@media print{@page{size:A4;margin:20mm}.page-break{page-break-before:always}}
