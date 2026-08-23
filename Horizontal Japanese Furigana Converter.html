@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<!-- saved from url=(0104)file:///home/rob/Documents/Misc/Rob%20misc/Haikus/Vertical%20Japanese%20Furigana%20Converter%20Bold.html -->
 <html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vertical Japanese Furigana Converter</title>
+    <title>Horizontal Japanese Furigana Converter</title>
     <style>
       * {
         box-sizing: border-box;
@@ -56,35 +54,30 @@
         border-color: #0066cc;
       }
 
-      /* Vertical Preview Area */
-      .vertical-preview {
+      /* Horizontal Preview Area */
+      .horizontal-preview {
         flex: 1;
         border: 1px solid #eee;
         border-radius: 6px;
         padding: 30px;
-        overflow-x: auto;
+        overflow-y: auto;
         background-color: #ffffff;
 
-        /* Standard Vertical Japanese Styling */
-        writing-mode: vertical-rl;
-        -webkit-writing-mode: vertical-rl;
-        text-orientation: mixed;
+        writing-mode: horizontal-tb;
         font-family: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
         font-size: 26pt;
-        line-height: 1.5;
-        letter-spacing: 0.1em;
+        line-height: 2.2;
+        letter-spacing: 0.05em;
 
-        /* Make main poem text & Kanji bold */
-        font-weight: 700;
+        font-weight: 400;
       }
 
-      /* Native Ruby Rules to ensure Furigana is on the RIGHT side and aligned TOP */
-      .vertical-preview ruby {
-        ruby-position: over; /* Places furigana on the RIGHT side in vertical-rl */
-        ruby-align: start; /* Top-aligns furigana with the character */
+      .horizontal-preview ruby {
+        ruby-position: over;
+        ruby-align: start;
       }
 
-      .vertical-preview rt {
+      .horizontal-preview rt {
         font-size: 0.45em;
         line-height: 1;
         letter-spacing: 0em;
@@ -94,7 +87,7 @@
     </style>
   </head>
   <body>
-    <h1>Haiku / Renku Vertical Converter</h1>
+    <h1>Haiku / Renku Horizontal Converter</h1>
 
     <div class="container">
       <!-- Input Panel -->
@@ -107,8 +100,8 @@
 
       <!-- Output Panel -->
       <div class="panel">
-        <h3>Vertical Output:</h3>
-        <div id="outputText" class="vertical-preview"><ruby>氷<rt>こおり</rt></ruby><ruby>の<rt>  </rt></ruby><ruby>海<rt>うみ</rt></ruby><br><br><ruby>白<rt>はく</rt></ruby><ruby>面<rt>めん</rt></ruby>や<br>ガソリンスタンドに<br><ruby>氷<rt>こおり</rt></ruby><ruby>解<rt>   と</rt></ruby>く<br><br><ruby>時<rt>とき</rt></ruby><ruby>に<rt>  </rt></ruby><ruby>凍<rt>こお</rt></ruby>りし<br><ruby>愛<rt>あい</rt></ruby><ruby>の<rt>  </rt></ruby><ruby>海<rt>うみ</rt></ruby>ひらく<br><br><ruby>噴<rt>ふ</rt></ruby><ruby>き<rt> </rt></ruby><ruby>上<rt>あ</rt></ruby>がる<br><ruby>水<rt>みず</rt></ruby><ruby>は<rt>    </rt></ruby><ruby>心<rt>こころ</rt></ruby>に<br><ruby>強<rt>つよ</rt></ruby>すぎて<br><br><ruby>心<rt>こころ</rt></ruby>を<br><ruby>頭<rt>あたま</rt></ruby><ruby>で<rt> </rt></ruby><ruby>押<rt>お</rt></ruby>さえ<br><ruby>な<rt>  </rt></ruby><ruby>お<rt>  </rt></ruby><ruby>溢<rt>あふ</rt></ruby>れ<br><br><ruby>青<rt>あお</rt></ruby><ruby>き<rt>   </rt></ruby><ruby>雫<rt>しずく</rt></ruby><br><ruby>言<rt>こと</rt></ruby><ruby>葉<rt>ば</rt></ruby><ruby>に<rt>  </rt></ruby><ruby>な<rt>  </rt></ruby><ruby>る<rt>  </rt></ruby><ruby>前<rt>まえ</rt></ruby><br><ruby>海<rt>うみ</rt></ruby><ruby>へ<rt> </rt></ruby><ruby>落<rt>お</rt></ruby>つ</div>
+        <h3>Horizontal Output:</h3>
+        <div id="outputText" class="horizontal-preview"></div>
       </div>
     </div>
 
@@ -146,7 +139,6 @@
             }
 
             // Case C: Multi-Kanji word -> auto-estimate split (e.g. 金星 -> きん / せい)
-            // Evenly splits readings across characters so each Kanji gets its exact reading top-aligned
             const totalFuriLen = furiStr.length;
             const chunkLen = Math.ceil(totalFuriLen / kanjiChars.length);
 
@@ -173,6 +165,5 @@
       // Initial render
       updatePreview();
     </script>
-  
 
 </body></html>
