@@ -125,6 +125,7 @@ Tip: convert to hiragana, strip small ゃゅょ, then count characters.
 - Katakana loanwords almost always run long (コンピュータ = 6, スマートフォン = 7).
 - 長音 in kanji readings: 東京 = とうきょう = 4, not 2.
 - Classical endings change counts: 見る (2) → 眺む (3) → 仰ぐ (3); 輝く (4) → 輝けり (5); 落ちる (3) → 落つ (2).
+- The suffix ちゃん (-chan, e.g. さくらちゃん, おばあちゃん) is pronounced/counted as **one mora**, not two — an explicit exception noted by Kawagita-san (source: 夏水仙の彼方 corrections, poems 1 and 2).
 
 
 ---
