@@ -72,6 +72,16 @@ ALWAYS use this layout (it mirrors the Kawagita manuscript):
 
 Use full-width spaces (　) between the three segments. Put `(It's fine as it is.)` at the end of the draft line when no change is needed.
 
+## New rules found (from *Rob's poem* and *百年の灯* tanka corrections, Sept 2026)
+
+13. **Tanka mode.** When the source has 5 images/beats instead of 3, Kawagita casts it as a 短歌《たんか》 (5-7-5-7-7, 31 mora) rather than forcing haiku. Same mora-counting and literary-form rules apply, just two more segments.
+
+14. **He coins words when nothing existing fits.** 森霊《しんれい》 ("forest spirit / heart of the forest") is marked explicitly `coined word` — invented Sino-Japanese compound, not in any dictionary, built from the poem's recurring image. Do this sparingly and flag it as coined.
+
+15. **He'll depart from the literal source when the poem demands it**, more freely than principle 6 implies: "I took the liberty of editing Rob's original text quite freely." Prioritize the tanka/haiku working as a poem over tracking the English 1:1.
+
+16. **Standard humility preface**: "My corrections aren't perfect, so please just use them as a reference." Include a line like this when presenting corrections, matching his tone.
+
 ## Things to watch
 
 - ー in katakana counts; many English-derived words are longer in mora than they look.
