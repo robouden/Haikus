@@ -69,7 +69,7 @@ Remove a format: `sudo brpapertoollpr_ql700 -P QL700-HQ -d <format-name>`. Don't
 | Pattern | Contents |
 |---|---|
 | `<Title>.docx` / `.pdf` | Finished haiku, one per file (some with `print` or `final` variants) |
-| `Kawagita Yoshinori - *.md`, `*corrected*.md`, `*tanka corrections.md` | Transcripts and corrections from Kawagita-san |
+| `Kawagita Yoshinori - *.md`, `*corrected*.md`, `*tanka corrections.md`, `*Kawagita corrections.md` | Transcripts and corrections from Kawagita-san |
 | `Haiku_Creation_Process*` | Process flow diagrams |
 | `*.skill`, `SKILL*.md` | Claude skill for the Japanese polish |
 | `Pictures/`, `*.jpg`, `*.png` | Source photos, hanko, artwork |

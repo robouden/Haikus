@@ -54,6 +54,20 @@ The mora-counting rules and both full sets of Kawagita-san's before/after exampl
 
 18. **It's fine to leave the choice open.** Several verses end with 2-3 fully-formed candidates and no final pick — he doesn't always converge on one "best" version. Presenting live alternatives for Rob to choose from is itself a valid finished state, not a sign the edit is incomplete.
 
+19. **Cut with the continuative form (連用形), not the end form.** 蒔く → 蒔き, 巡る → 巡り. Keep the end form for the final word only.
+
+20. **Don't mix modern and historical kana.** こたへけり → 応えけり. Classical grammar (けり, なり) is fine; spell in modern kana throughout.
+
+21. **Check rendaku (連濁).** 青白き = あおじろ, not あおしろ.
+
+22. **Check collocations.** 苗蒔く is wrong: 種を蒔く (sow seeds) / 苗を植える (plant seedlings).
+
+23. **Use real proper nouns.** 中島の寺 → 安能寺 (formal kanji 中嶌); 裏山 = hill behind the temple.
+
+24. **Prefer 啼く over 鳴く for animal calls** (鹿啼けば), consistent within the poem.
+
+25. **Story-like poems may go long and free-rhythm** ("I did not pay close attention to the traditional five-seven rhythm"). Flag connotations a Japanese reader would feel (茶のシャツ = tedious, gloomy daily life). Small particle swaps are valid edits (橙や → 橙の, 手に → 胸に); an opening や is not mandatory.
+
 ## Workflow
 
 1. Read the source haiku (English/Dutch/Japanese). Identify the core image, the turn/cut, and any implied season.

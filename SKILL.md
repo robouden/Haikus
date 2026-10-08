@@ -82,6 +82,26 @@ Use full-width spaces (　) between the three segments. Put `(It's fine as it is
 
 16. **Standard humility preface**: "My corrections aren't perfect, so please just use them as a reference." Include a line like this when presenting corrections, matching his tone.
 
+## Rules from the *Tsue no Nokoru Basho* set (Oct 2026)
+
+Source: [Tsue no Nokoru Basho - Kawagita corrections.md](<Tsue no Nokoru Basho - Kawagita corrections.md>).
+
+17. **Cut with the continuative form (連用形), not the end form (終止形).** 蒔く → 蒔き, 巡る → 巡り. Mid-poem phrases should flow on (中止法); reserve the end form for the true last word.
+
+18. **Don't mix modern and historical kana.** こたへけり → 応えけり (へ is historical kana). Classical grammar (けり, なり) is fine, but spell in modern kana, and never blend the two orthographies in one poem.
+
+19. **Rendaku (連濁) in compounds.** 青白き is あおじろ, not あおしろ. Check voicing for every compound reading in the furigana.
+
+20. **Collocations must be correct.** 苗蒔く is wrong: seeds are sown (種を蒔く), seedlings are planted (苗を植える). Verify verb–object pairs, including in coined phrasing.
+
+21. **Use real, correct proper nouns.** 中島の寺 → 安能寺 (the temple's actual name; formal kanji 中嶌 for Nakajima). Look up place/temple names instead of describing them, and use 裏山 (hill behind the temple) when that is the location.
+
+22. **Pick the right 鳴く/啼く.** For animal calls in poetry he prefers 啼く (鹿啼けば, 胸にまた啼く) over 鳴く. Keep it consistent within the poem.
+
+23. **Allow long free-rhythm versions when the poem is a story.** For #4 (golden sugi) and #5/#6 (multi-line, 7-7-5-style) he dropped strict 5-7 ("I did not pay close attention to the traditional rhythm"). Offer a looser variant when a strict cut would lose the idea. Also: connotation of an image matters ("brown shirt" reads as tedious, gloomy everyday life to a Japanese reader), so flag such nuances. Small particle swaps are legitimate edits (橙や → 橙の; 手に抱く → 胸に抱く).
+
+Note: rule 5 (opening や) is not absolute: he replaced 橙や with 橙の when the colour simply modifies the hat and a cut would split the image.
+
 ## Things to watch
 
 - ー in katakana counts; many English-derived words are longer in mora than they look.
